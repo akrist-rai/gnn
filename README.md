@@ -13,6 +13,22 @@ multiplying the Adjacency Matrix by the Feature Matrix (A×X) automatically perf
 
     Here is a **Google Maps** style example to visualize this.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
 Imagine we are building a system to predict **Traffic Jams**.
 
 **The Graph:** A city map.
