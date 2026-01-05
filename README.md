@@ -5,6 +5,6 @@ multiplying the Adjacency Matrix by the Feature Matrix (A×X) automatically perf
 
     Aggregation Logic:
 
-        Scratch: We manually did A @ x + x (Sum Aggregation + Self Loop).
+    Scratch: We manually did A @ x + x (Sum Aggregation + Self Loop).
 
-        Common (GCNConv): It automatically adds self-loops and normalizes the sum (usually using Mean or a specific spectral normalization) so nodes with 100 neighbors don't explode with huge values compared to nodes with 1 neighbor.
+    Common (GCNConv): It automatically adds self-loops and normalizes the sum (usually using Mean or a specific spectral normalization) so nodes with 100 neighbors don't explode with huge values compared to nodes with 1 neighbor.
